@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,20 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+                // Brazilian themed colors
+                brazil: {
+                    green: '#009C3B',
+                    yellow: '#FFDF00',
+                    blue: '#002776',
+                    white: '#FFFFFF',
+                    forest: '#005826',
+                    carnival: '#FF3366',
+                    beach: '#F8C471',
+                    terra: '#CD853F',
+                    amazon: '#228B22',
+                    ipanema: '#00CED1',
+                }
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +98,16 @@ export default {
 					to: {
 						height: '0'
 					}
-				}
+				},
+                'float': {
+                    '0%, 100%': { transform: 'translateY(0)' },
+                    '50%': { transform: 'translateY(-10px)' }
+                }
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+                'float': 'float 3s ease-in-out infinite'
 			}
 		}
 	},
