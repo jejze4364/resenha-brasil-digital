@@ -1,73 +1,103 @@
-# Welcome to your Lovable project
+### Descrição do Repositório no GitHub para o **Projeto Resenha**
 
-## Project info
+**Repositório do Projeto Resenha - Plataforma de Comunicação Digital Brasileira**
 
-**URL**: https://lovable.dev/projects/91ffe30f-ac53-4318-ae02-fed59262ec8b
+O **Resenha** é uma plataforma digital de comunicação inspirada em modelos globais como o WeChat, mas com foco exclusivo no Brasil. A missão deste projeto é criar um espaço autêntico e seguro para que os brasileiros se conectem, compartilhem conteúdo e realizem transações comerciais, sem a influência de governos externos ou algoritmos estrangeiros. Além disso, a plataforma será centrada na cultura brasileira, promovendo o mercado local e permitindo que os usuários tenham controle total sobre seus dados e privacidade.
 
-## How can I edit this code?
+Este repositório contém o código-fonte e os recursos necessários para o desenvolvimento da plataforma **Resenha** em sua versão inicial, com funcionalidades essenciais como mensagens instantâneas, chamadas de vídeo, marketplace, pagamentos integrados e acesso a conteúdos culturais exclusivos.
 
-There are several ways of editing your application.
+### **Funcionalidades Principais:**
 
-**Use Lovable**
+* **Mensagens Instantâneas e Videochamadas**: Sistema de chat em tempo real e chamadas de vídeo com criptografia de ponta a ponta.
+* **Marketplace Local**: Plataforma de e-commerce para negócios brasileiros, com suporte a pagamentos locais como PIX e Boleto Bancário.
+* **Espaço Cultural Brasileiro**: Seção para conteúdos exclusivos de entretenimento brasileiro, como músicas, filmes e eventos.
+* **Privacidade e Controle de Dados**: Garantia de que os dados dos usuários são armazenados localmente e utilizados com total transparência.
+* **Sistema de Notificação**: Notificações em tempo real para atualizações de chat, eventos e transações.
+* **Acessibilidade**: Funcionalidades inclusivas para garantir que todos os brasileiros possam utilizar a plataforma, incluindo suporte para pessoas com deficiência.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/91ffe30f-ac53-4318-ae02-fed59262ec8b) and start prompting.
+### **Tecnologias Utilizadas:**
 
-Changes made via Lovable will be committed automatically to this repo.
+* **Frontend**: React.js para a versão web, React Native para os aplicativos móveis (iOS e Android).
+* **Backend**: Node.js e Express para a API, com microservices para escalabilidade.
+* **Banco de Dados**: PostgreSQL (SQL) para dados estruturados e MongoDB (NoSQL) para dados não estruturados.
+* **Autenticação e Segurança**: OAuth2.0, JWT para autenticação segura, com criptografia de ponta a ponta para mensagens.
+* **Serviços em Nuvem**: AWS / Google Cloud para hospedagem e escalabilidade, com integração ao Firebase para notificações e analytics.
+* **Integração de Pagamentos**: Integração com meios de pagamento locais como **PIX**, **Boleto Bancário**, e **Cartões de Crédito/Débito**.
 
-**Use your preferred IDE**
+### **Como Contribuir:**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. **Clone o repositório**:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+   ```bash
+   git clone https://github.com/usuario/resenha.git
+   ```
+2. **Crie uma branch para a sua feature**:
 
-Follow these steps:
+   ```bash
+   git checkout -b nome-da-sua-feature
+   ```
+3. **Faça suas alterações** e **commit**:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+   ```bash
+   git add .
+   git commit -m "Descrição do que foi feito"
+   ```
+4. **Suba suas alterações para o repositório remoto**:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+   ```bash
+   git push origin nome-da-sua-feature
+   ```
+5. **Abra um pull request** e descreva as alterações realizadas.
 
-# Step 3: Install the necessary dependencies.
-npm i
+### **Licença:**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Este projeto está licenciado sob a **MIT License** - consulte o arquivo [LICENSE](LICENSE) para mais informações.
 
-**Edit a file directly in GitHub**
+### **Como Rodar o Projeto:**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+1. **Instalar Dependências**:
 
-**Use GitHub Codespaces**
+   * Para o frontend:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+     ```bash
+     npm install
+     ```
+   * Para o backend:
 
-## What technologies are used for this project?
+     ```bash
+     npm install
+     ```
 
-This project is built with:
+2. **Rodar o Backend**:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+   ```bash
+   npm start
+   ```
 
-## How can I deploy this project?
+3. **Rodar o Frontend**:
 
-Simply open [Lovable](https://lovable.dev/projects/91ffe30f-ac53-4318-ae02-fed59262ec8b) and click on Share -> Publish.
+   * Para rodar a versão web:
 
-## Can I connect a custom domain to my Lovable project?
+     ```bash
+     npm run start
+     ```
 
-Yes, you can!
+   * Para rodar a versão mobile com **React Native**:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+     ```bash
+     expo start
+     ```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+### **Status do Projeto:**
+
+O projeto está em **desenvolvimento ativo** e novas funcionalidades estão sendo implementadas. Se você deseja contribuir, fique à vontade para enviar **issues** e **pull requests**. A equipe de desenvolvimento está focada na criação de uma plataforma funcional com as principais funcionalidades de mensagens, marketplace e segurança.
+
+### **Contato:**
+
+Para questões, sugestões ou problemas, abra um **issue** no repositório ou entre em contato diretamente com os desenvolvedores.
+
+---
+
+**Junte-se a nós para criar o futuro da comunicação digital brasileira!** 🌍🇧🇷
